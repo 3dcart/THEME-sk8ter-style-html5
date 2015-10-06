@@ -1400,7 +1400,7 @@ ul#desktopMenu li ul li:hover {
 
 /*	Theme Responsive Styles
 	-----------------------	*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
 html {
 	padding: 0 !important;
@@ -1719,4 +1719,26 @@ body {
     .social-icons, .ftr-col.col2 {display: none; visibility: hidden;}
     #leftBar {display: none; visibility: hidden;}
     #cart {background: url('../images/shopping-bag.png') no-repeat left center; color: #000; font-family: 'Open Sans', sans-serif; font-size: 14px; text-decoration: none; text-align: right; position: relative; top: -7px;	width: 105px; height: 31px; line-height: 33px; overflow: hidden; z-index: 1000;	float: right; padding: 0 10px 0 0; margin: 15px 0 0 0;}
-}    
+}  
+@media(max-width: 768px) {
+	#modLinks{
+	text-align:center;
+}
+.productBlockContainer .product-container{
+	padding:0;
+	width:100%;
+}
+#searchBox{
+	display:none;
+}
+#logo{
+	margin-top:0;
+}
+#mobileMenu,
+#mobileCart{
+	display:block;
+}
+#cart{
+	display:none !important;
+}
+}
